@@ -5,7 +5,7 @@ var carSchema = new mongoose.Schema({
     model: String,
     year:Number,
     type: String,
-    features: String[3],
+    features: String,
     purchaseDate: { type: Date, default: Date.now }
 });
 
