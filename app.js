@@ -12,7 +12,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'FrontEnd/dist/usedCarsfront'));
-app.engine("html",require("ejs".renderFile));
+app.engine("html",require("ejs").renderFile);
 app.set('view engine', 'html');
 app.use( cors());
 app.use(logger('dev'));
