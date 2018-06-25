@@ -9,7 +9,7 @@ const routes: Routes = [
 { path : '', redirectTo: "/carDetails",pathMatch: 'full'}];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:true})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

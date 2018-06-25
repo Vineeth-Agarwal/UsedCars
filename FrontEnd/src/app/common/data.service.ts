@@ -11,10 +11,12 @@ export class DataService {
 // // *** local host****/
   // getUserDetail()
   // {
+  //   // return this.http.get("http://localhost:3000/getCarLast")
   //   return this.http.get("http://localhost:3000/getCarLast")
   // }
   // addUser(item){
   //   return this.http.post("http://localhost:3000/saveCar",item)
+  //   // return this.http.post("http://localhost:3000/saveCar",item)
   // }
 
   // // deployed heroku server
@@ -28,4 +30,5 @@ export class DataService {
   }
 
 }
+
 
