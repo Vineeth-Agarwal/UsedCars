@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 // save user
-router.post('/saveCars', function (req, res, next) {
+router.post('/saveCar', function (req, res, next) {
   if (req && !req.body) {
     return res.status(403).json({ msg: "Please provide car details" })
   }
