@@ -21,10 +21,10 @@ export class DataService {
 
   getUserDetail()
   {
-    return this.http.get("https://usedcarsexam.herokuapp.com//getCarLast")
+    return this.http.get("https://usedcarsexam.herokuapp.com/getCarLast")
   }
   addUser(item){
-    return this.http.post("https://usedcarsexam.herokuapp.com//saveCar",item)
+    return this.http.post("https://usedcarsexam.herokuapp.com/saveCar",item)
   }
 
 }
