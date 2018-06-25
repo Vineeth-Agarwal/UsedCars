@@ -272,7 +272,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row justify-content-md-center\">\n  <div class=\"col-sm-8\">\n\n    <div style=\"text-align:center;\">\n      <h1>The input given by the User are as follows</h1>\n      <hr>\n      <h4>\n        <ul>\n      <li>{{reportObj?.make</li>\n         <!-- <li>+ \" \"+ reportObj?.model</li>\n        <li>          + \" \" + reportObj?.type\n          </li> + \" with \"+ reportObj?.features+ \" \"}} on {{<li> reportObj?.purchaseDate | date : 'dd-MM-yyyy' }}</li> -->\n      </h4>\n    </ul>\n      <h5>The user will get {{purchaseDiscount}}% discount</h5>\n    </div>\n\n\n  </div>\n</div>"
+module.exports = "<div class=\"row justify-content-md-center\">\n  <div class=\"col-sm-8\">\n\n    <div style=\"text-align:center;\">\n      <h1>The input given by the User are as follows</h1>\n      <hr>\n      <h4>\n        <ul>\n      <li>{{reportObj?.make</li>\n         <!-- <li>+ \" \"+ reportObj?.model</li>\n        <li>          + \" \" + reportObj?.type\n          </li> + \" with \"+ reportObj?.features+ \" \"}} on {{<li> reportObj?.purchaseDate | date : 'dd-MM-yyyy' }}</li> -->\n        </ul>\n      </h4>\n\n      <h5>The user will get {{purchaseDiscount}}% discount</h5>\n    </div>\n\n\n  </div>\n</div>"
 
 /***/ }),
 
