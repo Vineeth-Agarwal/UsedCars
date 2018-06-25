@@ -1,0 +1,41 @@
+<br>
+<h1>The request for a car submitted by the user is as below:</h1>
+
+<!-- {{report|json}} -->
+
+<ul>
+    <li>
+        <b>
+            Make:</b> 
+            <!-- {{report?.make}} -->
+    </li>
+    <li>
+        <b>
+            Model:</b> 
+            <!-- {{report?.model}} -->
+    </li>
+    <li>
+        <b>
+            Year:</b> 
+            <!-- {{report?.year}} -->
+    </li>
+    <li>
+        <b>
+            Type:</b> 
+            <!-- {{report?.type}} -->
+    </li>
+    <li>
+        <b>
+            Features:</b> 
+            <!-- {{report?.features}} -->
+    </li>
+    <li>
+        <b>
+            Purchase Date: </b>
+             <!-- {{(report?.purchaseDate).toString().substring(0,10)}} -->
+    </li>
+</ul>
+
+<H3>The total discount obtained by the user is: 
+    <!-- {{(report?.year)%2==0?30:40}} -->
+    %</H3>
